@@ -212,7 +212,7 @@ const Card = () => (
 
       {/* Names */}
       <motion.div initial={{ opacity: 0, scale: 0.88 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.65, duration: 1 }}>
-        {['athif', 'namra'].map((name, i) => (
+        {['Athif', 'Namra'].map((name, i) => (
           <React.Fragment key={name}>
             {i === 1 && (
               <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(30px,6vw,52px)', color: '#d4849a', margin: '2px 0' }}>&amp;</div>
