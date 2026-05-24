@@ -148,7 +148,7 @@ const EnvelopeScreen = ({ onOpen }: { onOpen: () => void }) => {
             <motion.div initial={{ y: 0, opacity: 0 }} animate={{ y: -80, opacity: 1 }} transition={{ duration: 0.7, delay: 0.45 }}
               style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', width: '76%', background: 'linear-gradient(135deg,#1a5c44,#0d3b2e)', border: '1px solid rgba(201,168,76,0.35)', padding: '16px 20px', textAlign: 'center', boxShadow: '0 8px 30px rgba(0,0,0,0.4)', pointerEvents: 'none' }}>
               <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 20, color: '#e8c97a' }}>You are invited</div>
-              <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 16, color: '#d4849a', marginTop: 4 }}>athif & namra</div>
+              <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 16, color: '#d4849a', marginTop: 4 }}>Athif & Namra</div>
             </motion.div>
           )}
         </AnimatePresence>
@@ -258,16 +258,16 @@ const Card = () => (
 
           {/* Couple names + parents */}
           <div style={{ marginBottom: 8 }}>
-            <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(30px,6vw,42px)', color: '#e8c97a', lineHeight: 1.1 }}>athif</div>
+            <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(30px,6vw,42px)', color: '#e8c97a', lineHeight: 1.1 }}>Athif</div>
             <div style={{ fontFamily: '"Cormorant Garamond",serif', fontStyle: 'italic', fontSize: 13, color: 'rgba(232,201,122,0.55)', letterSpacing: 1, marginTop: 4 }}>
-              Son of Mr. Azeez &amp; Mrs. Soudha
+              Son of Mr. Aziz &amp; Mrs. Soudha
             </div>
           </div>
 
           <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(22px,4vw,32px)', color: '#d4849a', margin: '10px 0' }}>&amp;</div>
 
           <div style={{ marginBottom: 24 }}>
-            <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(30px,6vw,42px)', color: '#e8c97a', lineHeight: 1.1 }}>namra</div>
+            <div style={{ fontFamily: '"Great Vibes",cursive', fontSize: 'clamp(30px,6vw,42px)', color: '#e8c97a', lineHeight: 1.1 }}>Namra</div>
             <div style={{ fontFamily: '"Cormorant Garamond",serif', fontStyle: 'italic', fontSize: 13, color: 'rgba(232,201,122,0.55)', letterSpacing: 1, marginTop: 4 }}>
               Daughter of Mr. &amp; Mrs. Saleem
             </div>
